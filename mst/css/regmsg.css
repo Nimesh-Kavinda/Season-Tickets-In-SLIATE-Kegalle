@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(../images/regmsgback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    max-width: 80%;
+    opacity: 95%;
+}
+h1{
+    color: rgb(233, 12, 12);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    color: #ccc;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(-135deg, #285ea5, #060607);
+    cursor: pointer;
+
+}
+button:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        max-width: 80%;
+    }
+    body
+    {
+        background: url(../images/ATI\ 05.jpg);
+        background-size: cover;
+    }
+}

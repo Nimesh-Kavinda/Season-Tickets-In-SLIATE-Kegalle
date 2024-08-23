@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(135deg, #797972, #000000);
+}
+
+/* body content */
+.logoati 
+{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.T1 {
+    font-style: italic;
+}
+
+.p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B9B9B9;
+}
+
+.p2 {
+    padding-top: 80px;
+    color: #fff;
+}
+
+.space1 {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.space2 {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.container1 {
+    background: linear-gradient(-135deg, #285ea5, #060607);
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.picture {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 40px;
+}
+
+.container1 .text {
+    padding-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.container1 .text ul {
+    list-style-type: circle;
+}
+
+.p2 {
+    padding-top: 80px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.h2 {
+    color:#fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.img-gallery {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.img-gallery img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-gallery img:hover {
+    transform: scale(0.8) rotate(-5deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img {
+    width: 90%;
+    max-width: 350px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input {
+    display: block;
+}
+
+.ati_topic{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    
+    .logoati img {
+        width: 150px; 
+        height: 105px; 
+    }
+
+    .container1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .container1 .text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .seasoncont {
+        height: auto;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .seasontext{
+        width: 100%;
+        padding: 0;
+    }
+    .img-gallery img {
+        width: 100%;
+    }
+
+    .full-img img {
+        max-width: 100%;
+    }
+    .gallery1{
+        
+       flex-direction: column;
+       height: auto;
+    }
+    .containerab {
+        flex-direction: column;
+        height: auto;
+    }
+    .containerab .text {
+        width: 100%;
+        padding: 0;
+    }
+}
+
