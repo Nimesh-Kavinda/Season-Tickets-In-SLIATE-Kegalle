@@ -38,7 +38,7 @@ include "function/db.php";
 <div class="container1">
     <img class="picture" src="images/ATI 05.jpg" onclick="openFullImg(this.src)">
     <div class="text">
-        <h1>Hello, 2k22 IT Students,</h1>
+        <h1>Hello!, 2k22 IT Students,</h1>
         <br>
         <p>As you all know we are facing a lot of problems in getting our monthly season tickets.</p>
         <br>
